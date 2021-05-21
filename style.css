@@ -1,0 +1,92 @@
+@font-face{
+	font-family: 'ballpark';
+	src: url('polices/ballpark.eot') format('eot'),
+		 url('polices/ballpark.woff') format('woff'),
+		 url('polices/ballpark.ttf') format('truetype'),
+		 url('polices/ballpark.svg') format('svg')
+}
+@font-face{
+	font-family: 'dayrom';
+	src: url('polices/dayrom.eot') format('eot'),
+		 url('polices/dayrom.woff') format('woff'),
+		 url('polices/dayrom.ttf') format('truetype'),
+		 url('polices/dayrom.svg') format('svg')
+}
+body{
+	background-color: #F9F0A6;
+}
+
+.nav_bar {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+
+
+}
+li {
+	display: block;
+	padding: 8px 0 8px 16px;
+	display: inline;
+	font-family: dayrom;
+}
+li:hover{
+	color:#A50707;
+	text-decoration: underline;
+}
+
+nav{
+	float: right;
+}
+.pont{
+	float: center;
+	margin-left: 10%;
+}
+#pont{
+	position: relative;
+}
+.EtaUni{
+	position: absolute;
+	bottom: 0;
+	background-color: #000000;
+	opacity:0.6;
+	color: #FFF;
+	margin-bottom: 1.4%;
+	padding-right: 50%;
+	margin-left: 10%;
+
+
+}
+.voirArticle{
+	margin-left: -9%;
+	border-style: none;
+	background:linear-gradient(#997474,#A50707);
+	border: 0;
+    line-height: 0.7;
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    color: white; 
+}
+
+aside{
+	background-color: #6F6A63;
+	float: right;
+	border-radius: 5px;
+	
+}
+
+article{
+	float: left;
+	text-align: left;
+	margin-right:30%;
+	position: absolute;
+
+}
+
+
+
+
+
+
